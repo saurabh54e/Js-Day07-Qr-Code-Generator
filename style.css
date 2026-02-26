@@ -216,6 +216,22 @@ body.dark .main {
   border: 1px solid var(--text);
   opacity: 1;
 }
+
+#downloadBtn {
+  margin-top: 15px;
+  padding: 8px 12px;
+  font-size: 13px;
+  background: var(--accent-soft);
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+#downloadBtn:hover{
+  background:var(--accent);
+  transform:translateY(-1px);
+}
 @media (max-width: 600px) {
   body::before {
     backdrop-filter: blur(20px);
