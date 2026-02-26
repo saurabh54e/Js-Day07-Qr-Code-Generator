@@ -50,7 +50,7 @@ QR Code API (api.qrserver.com)
 
 🌐 Live Demo
 
-👉 (Add your GitHub Pages link here)
+👉 (https://saurabh54e.github.io/Js-Day07-Qr-Code-Generator/)
 
 ---
 
