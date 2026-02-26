@@ -6,30 +6,35 @@
 }
 
 :root{
-  --bg1:#fff7ed;
-  --bg2:#ffedd5;
-  --card:#ffffff;
-  --text:#7c2d12;
-  --muted:#9a3412;
-  --accent:#f97316;
-  --btn1:#fb923c;
-  --btn2:#ea580c;
+  --bg1:#0f172a;
+  --bg2:#020617;
+  --card:#111827;
+  --text:#e0f2fe;
+  --muted:#67e8f9;
+  --accent:#22d3ee;
+  --btn1:#06b6d4;
+  --btn2:#0891b2;
 }
 
 body.dark{
-  --bg1:#1c0f06;
-  --bg2:#2a1608;
-  --card:#3a1f0d;
-  --text:#ffedd5;
-  --muted:#fdba74;
-  --accent:#fb923c;
-  --btn1:#f97316;
-  --btn2:#ea580c;
+  --bg1:#020617;
+  --bg2:#000000;
+  --card:#020617;
+  --text:#a5f3fc;
+  --muted:#22d3ee;
+  --accent:#67e8f9;
+  --btn1:#22d3ee;
+  --btn2:#0891b2;
 }
 
-body {
-    background: var(--bg1);
-    color: var(--text);
+body{
+  background:
+    radial-gradient(1200px circle at 10% 10%,rgba(255,255,255,.15),transparent),
+    linear-gradient(135deg,var(--bg1),var(--bg2));
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 .theme-toggle{
   position:fixed;
